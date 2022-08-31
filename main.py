@@ -11,11 +11,6 @@ Intents.members = True
 
 app = discord.Client(command_prefix = ">", intents = discord.Intents.all())
 
-@app.event
-async def on_ready():
-    print(f"joined {app.user}.")
-    await message.channel.send(f"{message.author.name}님, 환영합니다!")
-
 
 @app.event
 async def on_message(message):
