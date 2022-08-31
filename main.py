@@ -4,7 +4,6 @@ from multiprocessing.connection import Client
 import discord
 import os
 
-token = 'MTAxNDQ0MDYxNzk1NjM0Nzk1NQ.Gj1rMu.B1Qs9SQP0l1b5rwdYt18Sf1H7jfjZuPM7iqoCE'
 
 Intents = discord.Intents.default()
 
