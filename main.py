@@ -2,6 +2,7 @@ from email import message
 from http import client
 from multiprocessing.connection import Client
 import discord
+import os
 
 token = 'MTAxNDQ0MDYxNzk1NjM0Nzk1NQ.G93R4s.RQHZGJMg7T9dp9l0wnK5al6c4Mf2paLB-Y0MW0'
 
@@ -44,5 +45,5 @@ async def on_message(message):
     if message.content == "병신":
         await message.channel.send(f"{message.author.name}?욕하누;")
 
-
-app.run(token)
+accsess_token = os.environ["BOT_TOKEN"}
+app.run(access_token)
