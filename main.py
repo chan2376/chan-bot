@@ -45,5 +45,5 @@ async def on_message(message):
     if message.content == "병신":
         await message.channel.send(f"{message.author.name}?욕하누;")
 
-accsess_token = os.environ["BOT_TOKEN"}
+accsess_token = os.environ["BOT_TOKEN"]
 app.run(access_token)
